@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.similar-product-con {
+  list-style-type: none;
+  margin: 18px;
+}
+.img {
+  height: 200px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: large;
+  font-weight: 600;
+}
+.brand {
+  font-family: 'Roboto';
+  font-size: medium;
+  font-weight: 400;
+}
+.price-letter {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+}
+.price-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,146 @@
+/* Write your CSS here */
+.success-view-container {
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  padding: 30px 80px 30px 80px;
+}
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-title {
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: 900;
+  width: 400px;
+}
+.product-img {
+  height: 600px;
+  width: 50%;
+  margin-right: 50px;
+}
+.content-con {
+  align-self: flex-start;
+}
+.rating-con {
+  background-color: #3b82f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+}
+.rating-reviews-count {
+  display: flex;
+  margin-right: 14px;
+  align-items: center;
+}
+.total-reviews {
+  font-family: 'Roboto';
+  font-size: large;
+  font-weight: 500;
+  margin-left: 12px;
+}
+.price {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 900;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: medium;
+  font-weight: 400;
+  color: #616e7c;
+  width: 550px;
+}
+.text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+}
+.available-con {
+  display: flex;
+}
+.brand-con {
+  display: flex;
+}
+.ul-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.val {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400px;
+  margin-left: 6px;
+}
+
+.decrement-btn {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.increment-btn {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.quantity-con {
+  display: flex;
+}
+.qty {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: large;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.btn {
+  background-color: #3b82f6;
+  height: 38px;
+  width: 120px;
+  border-radius: 9px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  border: none;
+}
+.similar-products {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-left: 35px;
+}
+
+.failure-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.continue-btn {
+  background-color: #3b82f6;
+  height: 35px;
+  width: 180px;
+  border-radius: 9px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #ffffff;
+}
+
+.error-view {
+  height: 300px;
+  width: 500px;
+}
